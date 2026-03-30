@@ -1,0 +1,43 @@
+{
+  "name": "@cogcoin/genesis",
+  "version": "1.0.0",
+  "description": "Genesis artifacts for the Cogcoin protocol.",
+  "license": "MIT",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "homepage": "https://cogcoin.org",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cogcoin/genesis.git"
+  },
+  "keywords": [
+    "cogcoin",
+    "coglex",
+    "cogtoshi",
+    "bitcoin",
+    "genesis",
+    "protocol",
+    "whitepaper"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "LICENSE",
+    "README.md",
+    "verify.mjs",
+    "genesis_tx.json",
+    "genesis_params.json",
+    "genesis_announcement.json",
+    "genesis_announcement.sig",
+    "canonical_constants.json",
+    "bip39_english.txt",
+    "cogcoin_whitepaper.md",
+    "scoring_bundle"
+  ],
+  "scripts": {
+    "verify": "node verify.mjs"
+  }
+}
